@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin
+Disallow: /*?*
+Disallow: /?c=
+Disallow: /?
+
+Sitemap: https://www.cyberify.co/sitemap.xml

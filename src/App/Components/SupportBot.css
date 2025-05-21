@@ -1,0 +1,32 @@
+.chat-box {
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .chat-box.closed {
+    opacity: 0;
+    transform: translateY(100%);
+    pointer-events: none;
+  }
+  
+  .chat-box.open {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+  }
+  
+  .chat-suggestion span {
+    cursor: pointer;
+    color: #f57c00;
+  }
+  
+  .chat-suggestion span:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-send-message[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
