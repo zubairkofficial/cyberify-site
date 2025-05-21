@@ -32,7 +32,7 @@ const SingleValue = ({ title, description }) => {
         <div className="col-md-6 col-xl-4">
             <div className="mil-icon-box-2 mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                    <img src={Helpers.staticImage("assets/img/icons/md/10.svg")} alt="icon" />
+                    <img src={Helpers.staticImage("img/icons/md/10.svg")} alt="icon" />
                 </div>
                 <div className="mil-box-text">
                     <h4 className="mil-mb-30">{title}</h4>
@@ -125,7 +125,7 @@ const AboutCyberify = () => {
                             <div className="mil-circle-illustration">
                                 <div className="mil-circle-bg"></div>
                                 <div className="mil-image-frame">
-                                    <img src={Helpers.staticImage("assets/bhatti-sb.png")} alt="img" />
+                                    <img src={Helpers.staticImage("bhatti-sb.png")} alt="img" />
                                 </div>
                             </div>
                         </div>
