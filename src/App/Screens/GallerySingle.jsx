@@ -45,7 +45,7 @@ const GallerySingle = () => {
   return (
     <>
       <Helmet>
-        <title>{`Category - ${categoryData?.name || ""} - Cyberify`}</title>
+        <title>{`${categoryData?.name || ""} - Cyberify`}</title>
         <link rel="canonical" href={canonicalUrl} />
       </Helmet>
       <PageBanner pageName={`Gallery: ${categoryData?.name || ""}`} />

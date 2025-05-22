@@ -43,7 +43,7 @@ const SingleUseCase = () => {
     return (
         <>
             <Helmet>
-                <title>{`${slug} - Cyberify`}</title>
+                <title>{`${project.short_description} - Cyberify`}</title>
                 <link rel="canonical" href={canonicalUrl} />
             </Helmet>
             <div></div>

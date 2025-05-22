@@ -62,7 +62,7 @@ const Vacancy = () => {
     return (
         <>
             <Helmet>
-                <title>{`${slug} - Cyberify`}</title>
+                <title>{`${vacancy.job_title} - Cyberify`}</title>
                 <link rel="canonical" href={canonicalUrl} />
             </Helmet>
             <div className='mil-mb-30'></div>

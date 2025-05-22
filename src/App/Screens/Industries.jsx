@@ -20,6 +20,7 @@ const Industries = () => {
   const canonicalUrl = `https://www.cyberify.co${location.pathname}`;
   const [industryId, setIndustryId] = useState(null);
   const [industryName, setIndustryName] = useState("");
+  const [industryTitle, setIndustryTitle] = useState("");
   const [industryImage, setIndustryImage] = useState("");
   const [industryEmailData, setIndustryEmailData] = useState("");
   const [industryEmailImage, setIndustryEmailImage] = useState("");
@@ -39,6 +40,7 @@ const Industries = () => {
             ? setIndustryData(JSON.parse(response.data.industry.industry_data))
             : {};
           setIndustryName(response.data.industry.industry_name);
+          setIndustryTitle(response.data.industry.title);
           setIndustryImage(Helpers.serverImage(response.data.industry.featured_image));
           setIndustryEmailImage(response.data.industry.email_image);
           setIndustryEmailData(response.data.industry.email_data);
@@ -83,7 +85,7 @@ const Industries = () => {
   return (
     <>
       <Helmet>
-        <title>{`${industry_slug} - Cyberify`}</title>
+        <title>{`${industryName} - Cyberify`}</title>
         <link rel="canonical" href={canonicalUrl} />
       </Helmet>
       <div>
