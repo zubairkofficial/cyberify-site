@@ -101,7 +101,7 @@ const SingleBlog = () => {
                 </div>
             </div>
 
-            <section className="mil-blog mil-p-75-0">
+            <section className="mil-blog mil-p-120-0">
                 <div className="container">
                     <div className="row justify-content-between">
                         <div className="col-lg-8 col-xl-8 mil-mb-120">
