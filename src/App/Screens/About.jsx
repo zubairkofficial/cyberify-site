@@ -36,7 +36,7 @@ const SingleValue = ({ title, description }) => {
                 </div>
                 <div className="mil-box-text">
                     <h4 className="mil-mb-30">{title}</h4>
-                    <p className="mil-box-text"  style={{textAlign:"justify"}}>{description}</p>
+                    <p className="mil-box-text" style={{ textAlign: "justify" }}>{description}</p>
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@ const AboutCyberify = () => {
                         </div>
                         <div className="col-lg-6">
 
-                            <h3 className="mil-mb-60"  style={{textAlign:"justify"}}>Explore the numbers that highlight our <span className="mil-accent">Success </span> in delivering exceptional projects, satisfying clients, and <span className="mil-accent">Achieving Global Impact</span></h3>
+                            <h3 className="mil-mb-60" style={{ textAlign: "justify" }}>Explore the numbers that highlight our <span className="mil-accent">Success </span> in delivering exceptional projects, satisfying clients, and <span className="mil-accent">Achieving Global Impact</span></h3>
 
                             <div className="row">
                                 <div className="col-lg-6">
@@ -132,7 +132,7 @@ const AboutCyberify = () => {
                         <div className="col-lg-6 mil-mb-60">
                             <span className="mil-suptitle mil-suptitle-2 mil-mb-30">Message from Founder</span>
                             <h2 className="mil-mb-50">Our Mission</h2>
-                            <p className="mil-mb-50"  style={{textAlign:"justify"}}>Our mission at Cyberify is to empower businesses to thrive in the digital era by delivering innovative, AI-powered solutions that simplify processes, boost productivity, and provide actionable insights. We believe in fostering strong client relationships, ensuring quality at every step, and offering tailored strategies to help businesses unlock their full potential.</p>
+                            <p className="mil-mb-50" style={{ textAlign: "justify" }}>Our mission at Cyberify is to empower businesses to thrive in the digital era by delivering innovative, AI-powered solutions that simplify processes, boost productivity, and provide actionable insights. We believe in fostering strong client relationships, ensuring quality at every step, and offering tailored strategies to help businesses unlock their full potential.</p>
                             <ul className="mil-simple-list">
                                 <li>Client-Centric Approach</li>
                                 <li>Continuous Innovation</li>

@@ -105,8 +105,8 @@ const SingleBlog = () => {
                 <div className="container">
                     <div className="row justify-content-between">
                         <div className="col-lg-8 col-xl-8 mil-mb-120">
-                            <span className="mil-suptitle mil-accent mil-mb-30">{blog.blog_category && blog.blog_category.name}</span>
-                            <h1 className="mil-up-font mil-mb-30">{blog.title}</h1>
+                            <span className="mil-suptitle mil-accent ">{blog.blog_category && blog.blog_category.name}</span>
+                            {/* <h1 className="mil-up-font mil-mb-30">{blog.title}</h1> */}
                             <ul className="mil-dot-list mil-post-info mil-text-sm mil-mb-60">
                                 {/* <li><Moment format="dddd, MMMM Do YYYY">{blog.created_at}</Moment></li> */}
                                 <li>{DateTime.fromISO(blog.created_at).toFormat('cccc, LLLL d\'th\' yyyy')}</li>
